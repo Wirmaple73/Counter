@@ -1,0 +1,27 @@
+﻿<Window x:Class="Counter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="شمارنده" Height="350" SizeToContent="Width" TextOptions.TextFormattingMode="Display" FontFamily="Tahoma" ResizeMode="CanMinimize" Closing="Window_Closing" Icon="Icon.ico">
+    <Grid FlowDirection="RightToLeft">
+        <Menu HorizontalAlignment="Left" Height="24" VerticalAlignment="Top" Width="260">
+            <MenuItem Header="فایل">
+                <MenuItem Header="خروج" Click="Menu_Item_Exit_Click"/>
+            </MenuItem>
+            <MenuItem Header="شمارنده">
+                <MenuItem x:Name="Menu_Item_EnableDigitGrouping" Header="استفاده از جداکننده ارقام" IsCheckable="True"/>
+                <Separator/>
+                <MenuItem Header="شمردن" Click="Button_Count_Click"/>
+                <MenuItem Header="بازنشانی" Click="Button_Reset_Click"/>
+            </MenuItem>
+            <MenuItem Header="راهنما">
+                <MenuItem Header="درباره" Click="Menu_Item_About_Click"/>
+            </MenuItem>
+        </Menu>
+        <TextBox x:Name="TextBox_Count" Margin="0,60,10,0" TextWrapping="NoWrap" Text="0" VerticalAlignment="Top" Height="80" TextAlignment="Center" FontFamily="Consolas" FontSize="50" Foreground="#FF00B900" FlowDirection="LeftToRight" IsReadOnly="True" HorizontalAlignment="Right" Width="240" HorizontalScrollBarVisibility="Visible"/>
+        <Button Content="شمردن" Margin="65,219,65,0" VerticalAlignment="Top" Height="34" FontSize="13" IsDefault="True" Click="Button_Count_Click"/>
+        <Button Content="بازنشانی" Margin="65,263,65,0" VerticalAlignment="Top" Height="34" FontSize="12" IsCancel="True" Click="Button_Reset_Click"/>
+        <TextBox x:Name="TextBox_Step" HorizontalAlignment="Left" Height="23" Margin="127,177,0,0" TextWrapping="NoWrap" MaxLength="4" Text="1" TextAlignment="Right" VerticalAlignment="Top" FlowDirection="LeftToRight" Width="50"/>
+        <TextBlock HorizontalAlignment="Left" Margin="77,180,0,0" TextWrapping="Wrap" Text="پیشروی:" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

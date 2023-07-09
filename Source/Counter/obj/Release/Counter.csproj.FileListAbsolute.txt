@@ -1,0 +1,15 @@
+C:\Users\user\documents\visual studio 2013\Projects\Counter\Counter\bin\Release\Counter.exe.config
+C:\Users\user\documents\visual studio 2013\Projects\Counter\Counter\bin\Release\Counter.exe
+C:\Users\user\documents\visual studio 2013\Projects\Counter\Counter\bin\Release\Counter.pdb
+C:\Users\user\documents\visual studio 2013\Projects\Counter\Counter\obj\Release\Counter.csprojResolveAssemblyReference.cache
+C:\Users\user\documents\visual studio 2013\Projects\Counter\Counter\obj\Release\AboutWindow.baml
+C:\Users\user\documents\visual studio 2013\Projects\Counter\Counter\obj\Release\MainWindow.baml
+C:\Users\user\documents\visual studio 2013\Projects\Counter\Counter\obj\Release\AboutWindow.g.cs
+C:\Users\user\documents\visual studio 2013\Projects\Counter\Counter\obj\Release\MainWindow.g.cs
+C:\Users\user\documents\visual studio 2013\Projects\Counter\Counter\obj\Release\App.g.cs
+C:\Users\user\documents\visual studio 2013\Projects\Counter\Counter\obj\Release\Counter_MarkupCompile.cache
+C:\Users\user\documents\visual studio 2013\Projects\Counter\Counter\obj\Release\Counter.g.resources
+C:\Users\user\documents\visual studio 2013\Projects\Counter\Counter\obj\Release\Counter.Properties.Resources.resources
+C:\Users\user\documents\visual studio 2013\Projects\Counter\Counter\obj\Release\Counter.csproj.GenerateResource.Cache
+C:\Users\user\documents\visual studio 2013\Projects\Counter\Counter\obj\Release\Counter.exe
+C:\Users\user\documents\visual studio 2013\Projects\Counter\Counter\obj\Release\Counter.pdb
